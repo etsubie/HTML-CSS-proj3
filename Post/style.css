@@ -1,0 +1,57 @@
+.post-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(202, 206, 204, 0.2);
+}
+
+.post-form {
+    display: flex;
+    padding: 15px;
+    background-color: white;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.type-price {
+    display: flex;
+    gap: 250px;
+}
+
+.type,
+.price {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label,
+input,
+textarea,
+.form-btn {
+    font-size: 17px;
+}
+
+input {
+    border: none;
+}
+
+textarea {
+    border: 1px solid rgb(235, 232, 232);
+}
+
+.color {
+    color: rgb(56, 200, 152);
+}
+
+.form-btn {
+    border: none;
+    background-color: rgb(55, 91, 200);
+    width: 130px;
+    padding: 10px;
+    color: white;
+    border-radius: 7px;
+}

@@ -1,0 +1,173 @@
+.details-container {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(202, 206, 204, 0.2);
+}
+
+.details {
+    display: flex;
+    padding: 15px;
+    background-color: white;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.postDetail-posterAdd {
+    display: flex;
+    gap: 20px;
+}
+
+.postDetail {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.proprty-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.propertyType-rate,
+.propertName-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.propertyType,
+.property-price {
+    font-size: 20px;
+}
+.name-addr,.pp{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.propertyName{
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+}
+.price{
+    font-size: 25px;
+    font-weight: bold;
+    color:  rgb(89, 57, 158);
+}
+.description{
+    font-size: 20px;
+}
+.price .grayText{
+    font-size:15px ;
+    font-weight: normal;
+}
+.house-location {
+    display: flex;
+    gap: 10px;
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gray {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(128, 128, 128, 0.8);
+    height: 12px;
+    width: 12px;
+    border-radius: 50px;
+}
+
+.gwhite {
+    background-color: white;
+    height: 4px;
+    width: 4px;
+    border-radius: 50px;
+}
+
+.ggray {
+    background-color: rgba(128, 128, 128, 0.8);
+    height: 4px;
+    width: 4px;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+
+}
+/*  */
+.posterAdd{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.adr-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(235, 232, 232);
+}
+.initial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(18, 130, 91, 0.9);
+
+    color: white;
+    font-size: 49px;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+}
+.property{
+    font-size: 17px;
+    font-weight: bold;
+}
+.message-call,.edit-delete{
+    display: flex;
+    gap: 10px;
+}
+.message,.call,.edit,.delete{
+    width: 130px;
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+    color: white;
+  
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+}
+.delete{
+    background-color: rgb(208, 11, 11);
+}
+.message,.edit{
+    background-color: rgb(55, 91, 200)
+}
+.call{
+    background-color: rgba(34, 176, 79,0.899);
+}
+.location img{
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.book-btn{
+    width: 100%;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(55, 91, 200)
+}

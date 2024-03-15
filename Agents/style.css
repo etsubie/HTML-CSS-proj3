@@ -1,0 +1,99 @@
+.agents-container {
+    background-color: rgba(202, 206, 204, 0.2);
+    padding: 0px 20px;
+    width: 100%;
+}
+
+.amap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.agray {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(128, 128, 128, 0.8);
+    height: 12px;
+    width: 12px;
+    border-radius: 50px;
+}
+
+.awhite {
+    background-color: white;
+    height: 4px;
+    width: 4px;
+    border-radius: 50px;
+}
+
+.agr {
+    background-color: rgba(128, 128, 128, 0.8);
+    height: 4px;
+    width: 4px;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+
+}
+
+.agents {
+    padding: 30px 120px 30px 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.agent-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.profile-name {
+    display: flex;
+    gap: 20px;
+}
+
+.agent-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(176, 38, 38);
+    color: white;
+    font-size: 30px;
+}
+.purp{
+    background-color: rgb(94, 7, 94);
+}
+
+.agent-profile img,
+.agent-profile {
+    border-radius: 8px;
+    width: 90px;
+    height: 90px;
+}
+
+.name-agent,
+.agent-location,
+.call {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-adrress,
+.proprty {
+    display: flex;
+    gap: 18px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}

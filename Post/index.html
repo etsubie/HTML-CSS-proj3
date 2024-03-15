@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Agent</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="header">
+        <div class="logo">
+            <div class="logo-img"><img src="../img/logo.png" alt="logo"></div>
+            <div class="logo-text">Yariga</div>
+        </div>
+        <div class="user-div">
+            <div class="short">{<span class="short-color">ES</span>}</div>
+            <div class="long">Etsubdink Yetwale<br /><span class="email">estub@gmail.com</span></div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="side">
+            <div class="side-menu">
+                <div class="side-element">
+                    <div class="icon"><img src="../img/icons/dashboard.png" alt=""></div>
+                    <span class="side-text"><a href="../index.html">Dashboard</a></span>
+                </div>
+                <div class="side-element">
+                    <div class="icon"><img src="../img/icons/property.png" alt=""></div>
+                    <span class="side-text"><a href="../Properties/index.html">Properties</a></span>
+                </div>
+                <div class="side-element">
+                    <div class="icon"><img src="../img/icons/agent.png" alt=""></div>
+                    <span class="side-text"><a href="../Agents/index.html">Agents</a></span>
+                </div>
+                <div class="side-element">
+                    <div class="icon"><img src="../img/icons/review.png" alt=""></div>
+                    <span class="side-text"><a href="#">Reviews</a></span>
+                </div>
+                <div class="side-element">
+                    <div class="icon"><img src="../img/icons/message.png" alt=""></div>
+                    <span class="side-text"><a href="#">Messages</a></span>
+                </div>
+                <div class="side-element">
+                    <div class="icon"><img src="../img/icons/profile.png" alt=""></div>
+                    <span class="side-text"><a href="../Profile/index.html">My Profile</a></span>
+                </div>
+                <div class="side-element">
+                    <div class="icon"><img src="../img/icons/logout.png" alt=""></div>
+                    <span class="logout"><a href="#">Logout</a></span>
+                </div>
+            </div>
+            <button class="side-pop">
+                < </button>
+        </div>
+        <div class="post-container">
+            <span class="boldText">Post a Property</span>
+            <form class="post-form" action="" method="post">
+                <label for="proName">Enter property name</label>
+                <input type="text" id="proName" name="proname">
+                <label for="descr">Property Description</label>
+                <textarea name="descr" id="descr" cols="30" rows="8"></textarea>
+                <div class="type-price">
+                    <div class="type">
+                        <label for="type">Enter property type</label>
+                        <input type="text" id="type" name="type">
+                    </div>
+                    <div class="price">
+                        <label for="price">Enter property price</label>
+                        <input type="text" id="price" name="price">
+                    </div>
+                </div>
+                <label for="location">Enter location</label>
+                <input type="text" id="location" name="location">
+                <label for="file">Property Photo &nbsp&nbsp;<span class="color">Upload*</span></label>
+                <input type="file">
+                <button class="form-btn">Submit</button>
+            </form>
+        </div>
+    </section>
